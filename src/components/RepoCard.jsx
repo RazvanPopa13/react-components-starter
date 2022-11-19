@@ -1,3 +1,20 @@
+const repositories = [
+  {
+    title: "facebook/react",
+    description: "placeholder description",
+    footer: "Stars 500, Forks 100",
+  },
+  {
+    title: "vuejs/vue",
+    description: "placeholder description",
+    footer: "Stars 500, Forks 100",
+  },
+  {
+    title: "sveltejs/svelte",
+    description: "placeholder description",
+    footer: "Stars 500, Forks 100",
+  },
+];
 const RepoCard = () => {
   return (
     <ul className="repo-cards">
@@ -30,4 +47,4 @@ const RepoCard = () => {
     </ul>
   );
 };
-export default RepoCard
+export default RepoCard;
