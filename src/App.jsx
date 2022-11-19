@@ -1,6 +1,6 @@
 import "./App.css";
 
-function App() {
+const App = () => {
   return (
     <>
       <header>
@@ -47,6 +47,6 @@ function App() {
       </main>
     </>
   );
-}
+};
 
 export default App;
