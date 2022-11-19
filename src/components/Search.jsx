@@ -1,9 +1,10 @@
-const Search = () => {
+import { useEffect } from "react";
+
+const Search = ({ handleSearchTerm }) => {
   return (
-    <form className="search-form">
-      <input className="input" />
-      <button className="button">Search</button>
-    </form>
+    <button className="button" onClick={() => handleSearchTerm("From comp")}>
+      Search
+    </button>
   );
 };
 export default Search;
