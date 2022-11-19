@@ -6,8 +6,11 @@ import Search from "./components/Search";
 const App = () => {
   return (
     <>
-      <main></main>
-      <div></div>
+      <Header />
+      <main>
+        <Search />
+        <RepoCard />
+      </main>
     </>
   );
 };
